@@ -153,7 +153,7 @@ export const projects: Project[] = [
     visual: 'techstore',
     images: [
       {
-        src: '/images/projects/techstore/admin-categories.png',
+        src: 'images/projects/techstore/admin-categories.png',
         alt: 'TechStore — interface admin de gestion des catégories',
         caption: 'Admin · catégories',
       },
@@ -246,7 +246,7 @@ export const experiences: Experience[] = [
     projectRef: 'inventory',
     images: [
       {
-        src: '/images/experience/liya-yo/espace-travail.png',
+        src: 'images/experience/liya-yo/espace-travail.png',
         alt: 'Espace de travail LIYA YO à Casablanca',
         caption: 'Nos locaux à Casablanca',
         note: 'Une belle expérience',
@@ -254,7 +254,7 @@ export const experiences: Experience[] = [
         size: 'lg',
       },
       {
-        src: '/images/experience/liya-yo/reunion.png',
+        src: 'images/experience/liya-yo/reunion.png',
         alt: 'Réunion et présentation pendant le stage LIYA YO',
         caption: 'Moment d\'échange',
         note: 'En pleine présentation',
@@ -280,14 +280,14 @@ export const experiences: Experience[] = [
     ],
     images: [
       {
-        src: '/images/experience/rapport-start-consulting.png',
+        src: 'images/experience/rapport-start-consulting.png',
         alt: 'Rapport de stage Start Consulting — TechStore',
         caption: 'Rapport de stage',
         rotate: -2,
         size: 'md',
       },
       {
-        src: '/images/experience/workspace-catalogue.png',
+        src: 'images/experience/workspace-catalogue.png',
         alt: 'Poste de travail pendant le stage — gestion du catalogue',
         caption: 'Sur le terrain',
         rotate: 3,
@@ -299,31 +299,31 @@ export const experiences: Experience[] = [
 
 export const educationPhotos = [
   {
-    src: '/images/education/rnn-lecture.png',
+    src: 'images/education/rnn-lecture.png',
     alt: 'Cours EMSI — RNNs et deep learning',
-    caption: 'RNNs & Deep Learning à l’EMSI',
+    caption: 'RNNs & Deep Learning à l\'EMSI',
     rotate: -3,
   },
   {
-    src: '/images/education/lab-data-linux.png',
+    src: 'images/education/lab-data-linux.png',
     alt: 'Lab EMSI — Linux et visualisation de données',
     caption: 'Labs Data & Linux',
     rotate: 2.5,
   },
   {
-    src: '/images/education/expo-lecture.png',
+    src: 'images/education/expo-lecture.png',
     alt: 'Cours EMSI — Création de projet avec Expo',
     caption: 'Dev mobile · Expo',
     rotate: -1.5,
   },
   {
-    src: '/images/education/arduino-lab.png',
+    src: 'images/education/arduino-lab.png',
     alt: 'TP EMSI — Arduino et systèmes embarqués',
     caption: 'TP1 · Lab Arduino',
     rotate: 3,
   },
   {
-    src: '/images/education/networking-study.png',
+    src: 'images/education/networking-study.png',
     alt: 'Session d’étude — réseaux et fragmentation Ethernet',
     caption: 'Révisions réseaux',
     rotate: -2,
@@ -341,7 +341,7 @@ export type WorldMoment = {
 
 export const worldMoments: WorldMoment[] = [
   {
-    src: '/images/world/tesla-optimus.png',
+    src: 'images/world/tesla-optimus.png',
     alt: 'Robot Tesla Optimus — salon tech / IA',
     caption: 'L’avenir est là',
     note: 'Exploration',
@@ -349,7 +349,7 @@ export const worldMoments: WorldMoment[] = [
     rotate: -2.5,
   },
   {
-    src: '/images/world/exhibition-event.png',
+    src: 'images/world/exhibition-event.png',
     alt: 'Salon professionnel et exposition',
     caption: 'Sur le terrain',
     note: 'Une belle expérience',
@@ -357,7 +357,7 @@ export const worldMoments: WorldMoment[] = [
     rotate: 3,
   },
   {
-    src: '/images/world/tinkercad-servo.png',
+    src: 'images/world/tinkercad-servo.png',
     alt: 'Prototype Tinkercad — Arduino et servo',
     caption: 'Prototypage',
     note: 'En création',

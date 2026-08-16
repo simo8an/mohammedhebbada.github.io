@@ -201,7 +201,7 @@ export default function Hero() {
           transition={{ delay: 0.4, duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
         >
           <ScrapbookPhoto
-            src="/images/hero/profile.png"
+            src="images/hero/profile.png"
             alt="Mohammed Hebbada — portrait professionnel"
             rotate={3.5}
             variant="cutout"
