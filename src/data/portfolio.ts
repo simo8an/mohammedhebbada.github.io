@@ -227,7 +227,7 @@ export const experiences: Experience[] = [
     id: 'liya-yo',
     role: 'Stagiaire AI & Data Engineering',
     company: 'LIYA YO',
-    location: 'Casablanca',
+    location: 'Maroc',
     period: 'Juillet 2026 — Août 2026',
     description:
       'Participation au développement d\'une solution intelligente de gestion des stocks combinant développement web, traitement des données, Machine Learning et visualisation.',
@@ -245,14 +245,6 @@ export const experiences: Experience[] = [
     featured: true,
     projectRef: 'inventory',
     images: [
-      {
-        src: 'images/experience/liya-yo/espace-travail.png',
-        alt: 'Espace de travail LIYA YO à Casablanca',
-        caption: 'Nos locaux à Casablanca',
-        note: 'Une belle expérience',
-        rotate: -2,
-        size: 'lg',
-      },
       {
         src: 'images/experience/liya-yo/reunion.png',
         alt: 'Réunion et présentation pendant le stage LIYA YO',
@@ -368,19 +360,31 @@ export const worldMoments: WorldMoment[] = [
 
 export const education: EducationItem[] = [
   {
-    year: '2026',
-    title: '5ème année — Cycle Ingénieur AI & Data Engineering',
-    institution: 'EMSI',
+    year: '2024 - Aujourd\'hui',
+    title: 'Cycle d\'ingénieur en Informatique & Réseaux',
+    institution: 'EMSI — École Marocaine des Sciences de l\'Ingénieur',
+    details: [
+      'Informatique',
+      'Réseaux',
+      'Intelligence artificielle',
+      'Génie logiciel',
+    ],
   },
   {
-    year: 'Avant',
-    title: 'Formation en ingénierie informatique',
+    year: '2022 - 2024',
+    title: 'Classes préparatoires intégrées',
+    institution: 'EMSI — École Marocaine des Sciences de l\'Ingénieur',
     details: [
-      'Data Engineering',
-      'Data Science',
-      'Intelligence Artificielle',
-      'Machine Learning',
+      'Mathématiques',
+      'Électronique embarquée',
+      'Fondamentaux de l\'informatique',
+      'IADATA',
     ],
+  },
+  {
+    year: '2022',
+    title: 'Baccalauréat Sciences Physiques — PC',
+    institution: 'École El Jil Jdid',
   },
 ]
 
